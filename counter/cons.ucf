@@ -1,0 +1,17 @@
+CONFIG VCCAUX = "3.3" ;
+
+NET "MCLK" LOC = P129;
+
+TIMESPEC TS_CLK = PERIOD "CLK" 12 MHz HIGH 50%;
+NET "sevenSegment[0]" LOC = P117;  
+NET "sevenSegment[1]" LOC = P116;  
+NET "sevenSegment[2]" LOC = P115;  
+NET "sevenSegment[3]" LOC = P113;  
+NET "sevenSegment[4]" LOC = P112;
+NET "sevenSegment[5]" LOC = P111;
+NET "sevenSegment[6]" LOC = P110;    
+NET "sevenSegment[7]" LOC = P114;  
+
+NET "enable1" LOC = P120 ;
+NET "enable2" LOC = P121 ;
+NET "enable3" LOC = P124 ;
